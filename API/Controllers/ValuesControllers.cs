@@ -19,11 +19,6 @@ namespace DatingApp.API.Controllers
             _context = context;
         }
 
-        public ValuesController()
-        {
-        }
-
-
         // GET api/values
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Value>>> Get()
